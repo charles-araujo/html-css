@@ -20,23 +20,29 @@
             padding: 10px;
         }
 
-        th {
-            background-color: rgb(48, 48, 48);
-            color: white;
-        }
+       .titulo {
+        background-color: rgb(107, 107, 107);
+        color: white;
+       }
+
+       .media {
+        text-align: left;
+       }
+
         
     </style>
 </head>
 <body>
     <tbody>
         <table>
-            <tr>
+            <tr class="titulo">
                 <th rowspan="2" scope="colgroup">Área</th>
                 <th rowspan="2" scope="colgroup">Disciplina</th>
                 <th colspan="2" scope="colgroup">Notas</th>
                 <th rowspan="2" scope="colgroup">Média</th>
             </tr>
-            <tr>
+
+            <tr class="titulo">
                 <th scope="colgroup">Nota 1</th>
                 <th scope="colgroup">Nota 2</th>
             </tr>
@@ -65,8 +71,8 @@
                 <td>0.0</td>
                 <td>0.0</td>
             </tr>
-            <tr>
-                <th colspan="4" scope="row">Média de Exatas</th>
+            <tr class="titulo">
+                <th colspan="4" scope="row" class="media">Média de Exatas</th>
                 <th>0.0</th>
             </tr>
             <tr>
@@ -82,8 +88,8 @@
                 <td>0.0</td>
                 <td>0.0</td>
             </tr>
-            <tr>
-                <th colspan="4" scope="row">Média de Humanas</th>
+            <tr class="titulo">
+                <th colspan="4" scope="row" class="media">Média de Humanas</th>
                 <th>0.0</th>
             </tr>
         </table>
